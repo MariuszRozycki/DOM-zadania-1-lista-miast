@@ -18,5 +18,7 @@ for (let city of cities) {
   li.innerText = city;
   console.log(li);
   olCities.appendChild(li);
+  li.setAttribute('class', 'city');
+  console.log(li);
 }
 
